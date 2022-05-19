@@ -8,9 +8,7 @@ for (let i = 0; i < SQUARE_NUMBER; i++) {
   const square = document.createElement('div');
   square.classList.add('square');
   square.addEventListener('mouseover', setColor)
-
   square.addEventListener('mouseleave', removeColor)
-  
   board.append(square)
 }
 
